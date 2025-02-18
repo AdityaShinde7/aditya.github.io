@@ -70,9 +70,9 @@ input {
     .nav-container {
       display: flex;
       flex-direction: column;
-      position: fixed; /*stops scrol on mobile*/
+      position: absolute;
       z-index: 1;
-      right: 0;
+      right: 10px;
        left: auto;
       -webkit-user-select: none;
       user-select: none;
