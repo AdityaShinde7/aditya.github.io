@@ -72,7 +72,8 @@ input {
       flex-direction: column;
       position: absolute;
       z-index: 1;
-      right: 10px;
+      top: auto;
+      right: 30px;
        left: auto;
       -webkit-user-select: none;
       user-select: none;
