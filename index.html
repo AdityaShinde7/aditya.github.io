@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aditya Shinde | Personal Blog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
     <script defer src="script.js"></script>
 </head>
@@ -12,22 +13,30 @@
 
     <!-- Header & Navigation -->
     <header>
-        <div class="logo" style="color:black;">Aditya Shinde</div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#blogs">Blogs</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="logo" style="color: black; text-shadow: 0 0 10px white;">Aditya Shinde</div>
+        <nav class="nav-container">
+        <!--<h3 class="title">BLOOM</h3>-->
+        <input type="checkbox" />
+        <span class="menu-span"></span>
+        <span class="menu-span"></span>
+        <span class="menu-span"></span>
+        <ul class="nav-items">
+            <li><a href="#home" class="menu-link">Home</a></li>
+
+            <li><a href="#blogs" class="menu-link">Blogs</a></li>
+
+            <li><a href="#about" class="menu-link">About</a></li>
+
+            <li><a href="#contact" class="menu-link">Contact</a></li>
+        </ul>
+    </nav>
     </header>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Welcome to My Blog</h1>
-            <p>Exploring AI, Tech, and the Future of Innovation.</p>
+            <h1 style="color: black; text-shadow: 0 0 10px white;">Welcome to My Blog</h1>
+            <p style="color: black; text-shadow: 0 0 10px white;">Exploring AI, Tech, and the Future of Innovation.</p>
         </div>
     </section>
 
@@ -42,7 +51,7 @@
  <section id="about"class="about">
     <img src="https://cdn-images-1.medium.com/fit/c/150/150/1*PzHMXw3h5W6JN0A2n5dFng.jpeg" alt="Your Name"> <!-- Replace with your actual photo -->
     <div class="about-content">
-        <h2>About Me</h2>
+        <h2 style="color:black;">About Me</h2>
         <p>
             Hi, I'm Aditya! I write about AI, technology, and the future of innovation.  
             Passionate about Generative AI, Machine Learning, and making AI accessible to all.  
@@ -56,7 +65,17 @@
     <section id="contact" class="contact">
         <h2>Get in Touch</h2>
         <p>Feel free to areach out for collaborations or discussions.</p>
-        <a href="mailto:your.email@example.com" class="contact-btn">Email Me</a>
+ <div class="social-icons">
+        <a href="https://www.linkedin.com/in/aditya-p-shinde" class="icon linkedin" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/AdityaShinde7" class="icon github" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/aditya_shinde" class="icon instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
     </section>
 
     <!-- Footer -->

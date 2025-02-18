@@ -31,7 +31,7 @@ function displayBlogs(posts) {
 
 
         blogCard.innerHTML = `
-            <img src="${firstImage}" alt="${post.title}" class="blog-image">
+            <img src="${firstImage}" alt="${post.title}" class="blog-image" style= "max-width: 100%; height: auto;">
             <h3 class="blog-title">${post.title}</h3>
             <p class="blog-description">${post.description.substring(0, 100)}...</p>
             <a href="${post.link}" target="_blank" class="read-more">Read More</a>
